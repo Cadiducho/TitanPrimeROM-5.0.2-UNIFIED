@@ -1,7 +1,7 @@
 #!/bin/bash
 VERSION=$(date +%Y%m%d)
-FILE=Quantum-OS-${VERSION}.zip
+FILE=TitanPrimeROM-tian-UNOFFICIAL-${VERSION}.zip
 ./tools/compile_apps_cygwin
-rm -rf Quantum-OS-tian-UNOFFICIAL-*.zip
+rm -rf TitanPrimeROM-tian-UNOFFICIAL-*.zip
 7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF install system supersu file_contexts logo.bin boot.img
 cd ..
