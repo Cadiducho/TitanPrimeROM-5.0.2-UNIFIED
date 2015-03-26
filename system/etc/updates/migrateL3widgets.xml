@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes' ?>
+    <updates>
+        <package old="com.android.launcher3">
+            <widget_host
+                newpackage="com.google.android.googlequicksearchbox" />
+        </package>
+    </updates>

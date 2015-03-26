@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <feature name="com.motorola.software.device.titan_umtsds" />
+    <feature name="com.motorola.software.product.titan_retaildsds" />
+    <feature name="com.motorola.software.fingerprint.motorola/titan_retaildsds/titan_umtsds:5.0.2/LXB22.46-28/28:user/test-keys" />
+</permissions>

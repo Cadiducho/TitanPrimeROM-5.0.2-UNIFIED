@@ -1,0 +1,2 @@
+com.google.android.googlequicksearchbox:com.android.launcher3
+    databases
