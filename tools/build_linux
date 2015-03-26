@@ -1,7 +1,7 @@
 #!/bin/bash
 VERSION=$(date +%Y%m%d)
-FILE=JFLTE-GPE-${VERSION}.zip
+FILE=TitanPrimeROM-UNOFFICIAL-${VERSION}.zip
 ./tools/compile_apps_linux
-rm -rf JFLTE-GPE-*.zip
-7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF aroma system data Changelog.md
+rm -rf TitanPrimeROM-UNOFFICIAL-*.zip
+7za a -mx9 -xr@tools/exclusion.txt "$FILE" META-INF system supersu file_contexts logo.bin boot.img
 cd ..
