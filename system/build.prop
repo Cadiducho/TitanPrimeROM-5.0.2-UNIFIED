@@ -199,7 +199,7 @@ av.offload.enable=false
 #
 # ADDITIONAL_BUILD_PROPERTIES
 #
-ro.build.version.full=Titan Prime ROM v1.0.2 BETA [UNIFIED]
+ro.build.version.full=Titan Prime ROM v1.0.3 BETA [UNIFIED]
 ro.mot.build.customerid=retusa_glb
 ro.mot.build.version.sdk_int=22
 ro.product.display=Moto G 2014
